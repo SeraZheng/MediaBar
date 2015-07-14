@@ -18,6 +18,7 @@
 		977B3C951B53A80A00E00CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977B3C941B53A80A00E00CBB /* Foundation.framework */; };
 		977B3C971B53A82600E00CBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977B3C961B53A82600E00CBB /* UIKit.framework */; };
 		977B3C9A1B53AE5C00E00CBB /* MBFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 977B3C991B53AE5C00E00CBB /* MBFoundation.m */; };
+		977B3CD81B54F07F00E00CBB /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 977B3CD71B54F07F00E00CBB /* camera.png */; };
 		C17009C9310CF0A4A0A26FFF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A207834DF142186867193975 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		977B3C961B53A82600E00CBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		977B3C981B53AE5C00E00CBB /* MBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFoundation.h; path = MediaBar/MBFoundation.h; sourceTree = "<group>"; };
 		977B3C991B53AE5C00E00CBB /* MBFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFoundation.m; path = MediaBar/MBFoundation.m; sourceTree = "<group>"; };
+		977B3CD71B54F07F00E00CBB /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = Resource/camera.png; sourceTree = "<group>"; };
+		977B3CDB1B54FF6500E00CBB /* AssetsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssetsDelegate.h; path = MediaBar/AssetsDelegate.h; sourceTree = "<group>"; };
 		A207834DF142186867193975 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B68561EA2FE343D2B719D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E8516C8E326EE3B661C99203 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		977B3C5D1B53A3CB00E00CBB = {
 			isa = PBXGroup;
 			children = (
+				977B3CD91B54F0B200E00CBB /* Resource */,
 				977B3C901B53A66200E00CBB /* MediaBar */,
 				977B3C681B53A3CB00E00CBB /* MediaBarDemo */,
 				977B3C821B53A3CC00E00CBB /* MediaBarDemoTests */,
@@ -155,8 +159,17 @@
 				977B3C921B53A7AB00E00CBB /* MediaBar.m */,
 				977B3C981B53AE5C00E00CBB /* MBFoundation.h */,
 				977B3C991B53AE5C00E00CBB /* MBFoundation.m */,
+				977B3CDB1B54FF6500E00CBB /* AssetsDelegate.h */,
 			);
 			name = MediaBar;
+			sourceTree = "<group>";
+		};
+		977B3CD91B54F0B200E00CBB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				977B3CD71B54F07F00E00CBB /* camera.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		CB3BC109D0489B3ED75D5AA2 /* Frameworks */ = {
@@ -251,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977B3CD81B54F07F00E00CBB /* camera.png in Resources */,
 				977B3C751B53A3CB00E00CBB /* Main.storyboard in Resources */,
 				977B3C7A1B53A3CB00E00CBB /* LaunchScreen.xib in Resources */,
 				977B3C771B53A3CB00E00CBB /* Images.xcassets in Resources */,
@@ -435,7 +449,9 @@
 			baseConfigurationReference = C4B68561EA2FE343D2B719D1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MediaBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -446,7 +462,9 @@
 			baseConfigurationReference = E8516C8E326EE3B661C99203 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MediaBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

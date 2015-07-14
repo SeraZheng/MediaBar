@@ -13,7 +13,61 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<key>Base.lproj/LaunchScreen~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4EB/ZcAilSoRf5GSXUDqfSU7KCQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/LaunchScreen~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rZM5BFqrVmnT/etTXqJQiUl4yp4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p/hf05WEjTVQ0XbPGUzmNqTscUA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M8RXnGZfgl++/exHY5IUHwaYt5I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6GjmodXI/4SNoLY+VzL2gIvE8jU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nT4EHtUpsLElwWn/E72SEXp2DrU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main~iphone.storyboardc/Info-8.0+.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -22,20 +76,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
+		<key>Base.lproj/Main~iphone.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fLpGbETPB//O2ZLZgliAfaGVIRs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VdF092oEno4kaB4n5WRacinakYQ=
+			Jmu6F/QDeWUyQljt5m/23hAkmcs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -312,11 +357,15 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		txzMlEmLAIJyP5RgCau1RvYwCps=
+		4BwneaogZ3oC6u9xKOazWuqOJCU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>camera.png</key>
+		<data>
+		PaFmFSDSiT2VxyGqeoTr4M0eqtU=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -334,7 +383,61 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<key>Base.lproj/LaunchScreen~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4EB/ZcAilSoRf5GSXUDqfSU7KCQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/LaunchScreen~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rZM5BFqrVmnT/etTXqJQiUl4yp4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p/hf05WEjTVQ0XbPGUzmNqTscUA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M8RXnGZfgl++/exHY5IUHwaYt5I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6GjmodXI/4SNoLY+VzL2gIvE8jU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nT4EHtUpsLElwWn/E72SEXp2DrU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main~iphone.storyboardc/Info-8.0+.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -343,20 +446,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
+		<key>Base.lproj/Main~iphone.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fLpGbETPB//O2ZLZgliAfaGVIRs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VdF092oEno4kaB4n5WRacinakYQ=
+			Jmu6F/QDeWUyQljt5m/23hAkmcs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -631,6 +725,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>camera.png</key>
+		<data>
+		PaFmFSDSiT2VxyGqeoTr4M0eqtU=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		ZAcdZmZQ8t5PK3pY/NlQoimwpvE=

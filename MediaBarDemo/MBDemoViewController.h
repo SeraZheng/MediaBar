@@ -10,7 +10,7 @@
 #import "MediaBar.h"
 #import "MBFoundation.h"
 
-@interface MBDemoViewController : UIViewController
+@interface MBDemoViewController : UIViewController <AssetsDelegate>
 
 @property (nonatomic, retain) MediaBar* mediaBar;
 
