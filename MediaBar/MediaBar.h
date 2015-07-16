@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AssetsDelegate.h"
+#import <DTRichTextEditor.h>
 
 #define MBLog(_text, _comment)	NSLocalizedString(_text, _comment)
 
@@ -21,7 +22,36 @@
 /**
  * One button for select image or video from local
  */
-@property (nonatomic, retain) UIBarButtonItem* imageButton;
+@property (nonatomic, retain) UIBarButtonItem* imageButtonItem;
+
+/**
+ * Button for select image or video display with imageButtonItem
+ *
+ * @see imageButtonItem
+ */
+@property (nonatomic, retain) UIButton* imageButton;
+
+/**
+ * One button for select image or video from local
+ */
+@property (nonatomic, retain) UIBarButtonItem* textViewItem;
+
+/**
+ * rich text editor for input or paste display with textViewItem
+ *
+ * @see textViewItem
+ */
+@property (nonatomic, retain) DTRichTextEditorView* richTextEditor;
+
+/**
+ * height of mediaBar
+ */
+@property (nonatomic, assign) CGFloat barHeight;
+
+/**
+ * width of mediaBar
+ */
+@property (nonatomic, assign) CGFloat barWidth;
 
 /**
  * Delegate coordinate with CTAssetsPickerControllerDelegate
@@ -52,13 +82,18 @@
  */
 @property (nonatomic, assign) BOOL alwaysEnableDoneButton;
 
-
 /**
- * Initialize mediaBar with UIViewController
+ * Initialize rich text editor with viewController
+ *
  * @param viewController assign private property "myController" with UIViewController
+ * @param frame mediaBar's frame
  */
 
-- (instancetype)initWithController:(UIViewController*)viewController;
+- (instancetype)initWithController:(UIViewController*)viewController withFrame:(CGRect)frame;
 
+/**
+ * set items for mediaBar;
+ */
+- (void)show;
 
 @end

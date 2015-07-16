@@ -14,6 +14,36 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-DTCoreText.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DTFoundation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DTLoupe-DTLoupe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DTLoupe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DTRichTextEditor.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DTWebArchive.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03891660417F6F5580FBBCB0</key>
+		<key>03362B4C04599BAB0F3EFCA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6C815B81810BABD0CC521A9F</key>
+		<key>0786A8418391E259B1EEEEB4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CBE4882AC6DAFDFECB0538EB</key>
+		<key>1C397BCDF83B3E31BEBC00FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>423E6BD7AB2E20CAE3DB91AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4A80901FFEA7298E574C5EF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FC035EF8B6E912EE176436C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77F079F1642286CFF3ECB060</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE0DF428E4CDAE6FA70E91D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE2B4083D98554C6BABF37D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

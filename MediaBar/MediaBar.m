@@ -11,22 +11,26 @@
 
 #define BARBUTTON_IMG_WIDTH                 24
 #define BARBUTTON_IMG_HEIGHT                24
+#define CHAT_BOX_INSETS_DEFAULT             UIEdgeInsetsMake(5, 5, 5, 5)
+#define CHAT_BOX_PADDING                    7
+#define CHAT_BOX_WIDTH_SMALL                184
+#define CHAT_BOX_WIDTH                      230
 
 @interface MediaBar () <CTAssetsPickerControllerDelegate,UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @property (nonatomic, retain) UIViewController* myController;
-@property (nonatomic, assign) CGFloat barHeight;
-@property (nonatomic, assign) CGFloat barWidth;
 @property (nonatomic, assign) UIEdgeInsets edgeInsets;
 
 @end
 
 @implementation MediaBar
 
-- (instancetype)initWithController:(UIViewController *)viewController
+- (instancetype)initWithController:(UIViewController *)viewController withFrame:(CGRect)frame
 {
-    if (self = [super init]) {
+    if (self = [super initWithFrame:frame]) {
         _myController = viewController;
+        _richTextEditor = [[DTRichTextEditorView alloc] init];
+        _textViewItem = [[UIBarButtonItem alloc] initWithCustomView:_richTextEditor];
     }
     
     return self;
@@ -39,8 +43,14 @@
 {
     _imageButtonEnabled = imageButtonEnabled;
     if (imageButtonEnabled) {
-        UIBarButtonItem* fleItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
-        [self setItems:@[fleItem,self.imageButton] animated:imageButtonEnabled];
+        _imageButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _imageButton.frame = CGRectMake(0, 0, self.barHeight, self.barHeight);
+        _imageButton.imageEdgeInsets = self.edgeInsets;
+        [_imageButton setBackgroundImage:[UIImage imageNamed:@"camera.png"] forState:UIControlStateNormal];
+        _imageButton.showsTouchWhenHighlighted = YES;
+        [_imageButton addTarget:self action:@selector(imageButtonTouch) forControlEvents:UIControlEventTouchUpInside];
+        _imageButtonItem = [[UIBarButtonItem alloc] initWithCustomView:_imageButton];
+
     }
 }
 
@@ -63,21 +73,6 @@
     return _barHeight;
 }
 
-- (UIBarButtonItem *)imageButton
-{
-    if (!_imageButton) {
-        UIButton* imageBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        imageBtn.frame = CGRectMake(0, 0, self.barHeight, self.barHeight);
-        imageBtn.imageEdgeInsets = self.edgeInsets;
-        [imageBtn setBackgroundImage:[UIImage imageNamed:@"camera.png"] forState:UIControlStateNormal];
-        imageBtn.showsTouchWhenHighlighted = YES;
-        [imageBtn addTarget:self action:@selector(imageButtonTouch) forControlEvents:UIControlEventTouchUpInside];
-        _imageButton = [[UIBarButtonItem alloc] initWithCustomView:imageBtn];
-    }
-    
-    return _imageButton;
-}
-
 - (UIEdgeInsets)edgeInsets
 {
     _edgeInsets = UIEdgeInsetsMake((self.barHeight - BARBUTTON_IMG_WIDTH)/2, (self.barHeight - BARBUTTON_IMG_HEIGHT)/2, (self.barHeight - BARBUTTON_IMG_HEIGHT)/2, (self.barHeight - BARBUTTON_IMG_WIDTH)/2);
@@ -98,6 +93,15 @@
     [actionSheet addButtonWithTitle:MBLog(@"Cancel", @"")];
     actionSheet.cancelButtonIndex = [actionSheet numberOfButtons] - 1;
     [actionSheet showInView:self.myController.view];
+}
+
+- (void)show
+{
+    if (_imageButtonEnabled) {
+        self.items = @[_textViewItem, _imageButtonItem,];
+    } else{
+        self.items = @[_textViewItem];
+    }
 }
 
 #pragma mark -

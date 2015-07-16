@@ -1,10 +1,39 @@
 PODS:
   - CTAssetsPickerController (2.9.5)
+  - DTCoreText (1.6.16):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.6)
+  - DTFoundation/DTAnimatedGIF (1.7.6)
+  - DTFoundation/DTHTMLParser (1.7.6):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.6):
+    - DTFoundation/Core
+  - DTLoupe (1.5.6)
+  - DTRichTextEditor (1.6.10):
+    - DTCoreText (~> 1.6.16)
+    - DTFoundation/Core (~> 1.7.6)
+    - DTLoupe (~> 1.5.6)
+    - DTWebArchive (~> 0.0.2)
+  - DTWebArchive (0.0.3):
+    - DTWebArchive/Core (= 0.0.3)
+    - DTWebArchive/iOS (= 0.0.3)
+  - DTWebArchive/Core (0.0.3)
+  - DTWebArchive/iOS (0.0.3):
+    - DTWebArchive/Core
 
 DEPENDENCIES:
   - CTAssetsPickerController (~> 2.9.0)
+  - DTRichTextEditor
 
 SPEC CHECKSUMS:
   CTAssetsPickerController: b413fece2194ae3dbf22fbc544cf6f2a6d516a4d
+  DTCoreText: 934a16fe9ffdd169c96261721b39dc312b75713d
+  DTFoundation: bf431de2292484461ff7d92295fdae7dc15a3820
+  DTLoupe: 8b4752d3be84b09a656a8c120e9e100d6270a373
+  DTRichTextEditor: 86ef5474643dcd95c7a07337671639761be2a801
+  DTWebArchive: 2029610e2e2fda5b6d51a386b13b1484b7b197ba
 
 COCOAPODS: 0.37.1

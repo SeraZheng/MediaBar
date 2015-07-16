@@ -355,6 +355,70 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>DTLoupe.bundle/kb-drag-dot.png</key>
+		<data>
+		ZrcWLbdkevtcXQWA9BZ5+mLm+6k=
+		</data>
+		<key>DTLoupe.bundle/kb-drag-dot@2x.png</key>
+		<data>
+		UgBDYOhAdwbbd8qdLXt4iaC3Ylw=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-hi.png</key>
+		<data>
+		gPtsBv/Tv4rfiAFDdo5CJvVPxkw=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-hi@2x.png</key>
+		<data>
+		izDiae5S7mRxClXlOWA7TCp4Q8I=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-lo.png</key>
+		<data>
+		LLfOLVoAgTvRlp3zJA01c/VOcw0=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-lo@2x.png</key>
+		<data>
+		rBpXSnF6R+qr8+O1PUQY5duZwbg=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-mask.png</key>
+		<data>
+		Iu1J0ZDciOg4pK83pBtqKMenHNg=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-mask@2x.png</key>
+		<data>
+		/ev9z0xJ5aiwET4IcaB71vSvqus=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-hi.png</key>
+		<data>
+		p7j+DlhN1i0mv3bdk0i/UsRM//E=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-hi@2x.png</key>
+		<data>
+		Rm7TgFoTo/1ouhlTGozjTaZAOD4=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo-stemless.png</key>
+		<data>
+		7QoexdTzetGE6LCvwLDJqnVNflk=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo-stemless@2x.png</key>
+		<data>
+		YsLMi7TXGlwFEVaqExIiEQebLlk=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo.png</key>
+		<data>
+		JkfZZseQbr4YOn875SeKqYwNrZ4=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo@2x.png</key>
+		<data>
+		BF1BFLIqaZB8UwubgkszlSYalCA=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-mask.png</key>
+		<data>
+		omb7WeOhCdcuU8rEQBmSKHlSakM=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-mask@2x.png</key>
+		<data>
+		GJqYhAgY5Hu715l9/qMJ5zdjSxs=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		4BwneaogZ3oC6u9xKOazWuqOJCU=
@@ -725,6 +789,70 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>DTLoupe.bundle/kb-drag-dot.png</key>
+		<data>
+		ZrcWLbdkevtcXQWA9BZ5+mLm+6k=
+		</data>
+		<key>DTLoupe.bundle/kb-drag-dot@2x.png</key>
+		<data>
+		UgBDYOhAdwbbd8qdLXt4iaC3Ylw=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-hi.png</key>
+		<data>
+		gPtsBv/Tv4rfiAFDdo5CJvVPxkw=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-hi@2x.png</key>
+		<data>
+		izDiae5S7mRxClXlOWA7TCp4Q8I=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-lo.png</key>
+		<data>
+		LLfOLVoAgTvRlp3zJA01c/VOcw0=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-lo@2x.png</key>
+		<data>
+		rBpXSnF6R+qr8+O1PUQY5duZwbg=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-mask.png</key>
+		<data>
+		Iu1J0ZDciOg4pK83pBtqKMenHNg=
+		</data>
+		<key>DTLoupe.bundle/kb-loupe-mask@2x.png</key>
+		<data>
+		/ev9z0xJ5aiwET4IcaB71vSvqus=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-hi.png</key>
+		<data>
+		p7j+DlhN1i0mv3bdk0i/UsRM//E=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-hi@2x.png</key>
+		<data>
+		Rm7TgFoTo/1ouhlTGozjTaZAOD4=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo-stemless.png</key>
+		<data>
+		7QoexdTzetGE6LCvwLDJqnVNflk=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo-stemless@2x.png</key>
+		<data>
+		YsLMi7TXGlwFEVaqExIiEQebLlk=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo.png</key>
+		<data>
+		JkfZZseQbr4YOn875SeKqYwNrZ4=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-lo@2x.png</key>
+		<data>
+		BF1BFLIqaZB8UwubgkszlSYalCA=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-mask.png</key>
+		<data>
+		omb7WeOhCdcuU8rEQBmSKHlSakM=
+		</data>
+		<key>DTLoupe.bundle/kb-magnifier-ranged-mask@2x.png</key>
+		<data>
+		GJqYhAgY5Hu715l9/qMJ5zdjSxs=
+		</data>
 		<key>camera.png</key>
 		<data>
 		PaFmFSDSiT2VxyGqeoTr4M0eqtU=
