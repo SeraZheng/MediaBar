@@ -1,1 +1,1 @@
-MediaBar is one toolbar support manage multimedia,include image,video,audio
+MediaBar is one toolbar support common rich text editor and manage multimedia,include image as well as video
