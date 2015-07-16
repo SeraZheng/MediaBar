@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'MediaPlayer', 'AssetsLibrary', 'UIKit', 'Foundation'
   s.requires_arc = true
   s.dependency 'CTAssetsPickerController', '~> 2.9.5'
-  s.dependency 'DTRichTextEidtor'
+  s.dependency 'DTRichTextEditor'
 end
