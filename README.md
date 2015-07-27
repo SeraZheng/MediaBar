@@ -14,7 +14,7 @@ MediaBar
 
 Podfile:
 platform :ios, ‘7.0’
-pod ‘MediaBar’, '~> 1.0.0'
+pod ‘MediaBar’, '~> 1.0.1'
 
 §Properties
 
