@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MediaBar'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'MediaBar is the toolbar support common rich text editor and manage multimedia,include image as well as video'
   s.description  = <<-DESC
                    A longer description of MediaBar in Markdown format.
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { 'sera' => '462970213@qq.com' }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => 'https://github.com/sjzc/MediaBar.git', :tag => '1.0.0' }
+  s.source       = { :git => 'https://github.com/sjzc/MediaBar.git', :tag => '1.0.1' }
   s.source_files  = 'MediaBar/*.{h,m}'
   s.resources  = 'Resource/*.png'
   s.frameworks = 'MediaPlayer', 'AssetsLibrary', 'UIKit', 'Foundation'
